@@ -1,0 +1,58 @@
+@media screen and (max-width:769px) {
+    .text-list-html {
+        width: 100%;
+        /* height: 270px; */
+    }
+}
+
+.page_title {
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.photo-page-img {
+    margin: 0 auto;
+}
+
+.down-main-photo {
+    width: 500px;
+    height: 30px;
+    margin: 20px 0 20px 50%;
+}
+
+.collection1 {
+    border-radius: 10px;
+    width: 140px;
+    background: rgb(252, 140, 142);
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    /* margin-right: 15px; */
+    float: right;
+}
+
+.pic_text_box img {
+    margin: 0 auto;
+}
+
+.photo-content-title-bottomx img {
+    /* width: 960px; */
+    height: auto;
+    /* margin: 10px 0 10px 50%; */
+    /*  */
+}
+
+.photo-adver a {
+    background: red;
+    zoom: 1;
+}
+
+.photo-adver a:after {
+    display: block;
+    content: '.';
+    clear: both;
+    line-height: 0;
+    visibility: hidden;
+}

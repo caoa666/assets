@@ -1,0 +1,59 @@
+.section-banner {
+    margin: 0px;
+    padding: 5px;
+}
+
+.section-banner .content-img {
+    width: 100%;
+    max-height: 400px;
+    background-size: cover;
+}
+
+.section-banner .banner {
+    margin: 0px;
+    min-height: 400px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media screen and (max-width:765px) {
+    .section-banner {
+        padding: 0;
+    }
+    .section-banner .content-img {
+        max-height: 120px;
+        background-size: contain;
+    }
+    .section-banner .banner {
+        min-height: 120px;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:766px) {
+    .section-banner {
+        padding: 0;
+    }
+    .section-banner .content-img {
+        max-height: 216px;
+        background-size: contain;
+    }
+    .section-banner .banner {
+        min-height: 216px;
+    }
+}
+
+@media screen and (max-width:805px) and (min-width:769px) {
+    .section-banner {
+        padding: 0;
+    }
+    .section-banner .content-img {
+        max-height: 325px;
+        background-size: contain;
+    }
+    .section-banner .banner {
+        min-height: 325px;
+    }
+}
+
